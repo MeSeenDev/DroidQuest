@@ -1,0 +1,83 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DroidQuest" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="mBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/mBottomSheetStyle</item>
+    </style>
+
+    <style name="mBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="behavior_peekHeight">@dimen/bottomPeekHeight</item>
+    </style>
+
+    <!--MainActivity кнопки -->
+    <style name="AnswerButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="fontFamily">@font/rubik_black</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="cornerRadius">@dimen/cardCornerRadius</item>
+        <item name="strokeColor">@color/colorOnPrimary</item>
+    </style>
+    <style name="AnswerButtonTablet" parent="AnswerButton">
+        <item name="minWidth">185dp</item>
+        <item name="minHeight">80dp</item>
+        <item name="android:textSize">@dimen/largeText</item>
+    </style>
+
+    <style name="FabAnswerCheat" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="backgroundTint">@color/colorPrimaryVariant</item>
+        <item name="tint">@color/colorOnPrimary</item>
+        <item name="srcCompat">@drawable/ic_information_variant</item>
+    </style>
+
+
+    <!--    BottomSheetFragment элементы -->
+
+    <style name="BottomHeadTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="fontFamily">@font/rubik</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:textSize">@dimen/largeText</item>
+    </style>
+
+    <style name="BottomDescriptionTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="fontFamily">@font/rubik</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:textSize">@dimen/middleText</item>
+        <item name="android:gravity">center</item>
+       <!-- <item name="android:visibility">invisible</item>-->
+    </style>
+
+    <style name="BottomWarningTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="fontFamily">@font/rubik_light</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:textSize">@dimen/smallText</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--    ViewPager2 Fragment элементы -->
+
+    <style name="VP2QuestMaterialTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="fontFamily">@font/rubik</item>
+        <item name="android:textColor">@color/colorOnPrimary</item>
+        <item name="android:textSize">@dimen/baseText</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+
+
+</resources>

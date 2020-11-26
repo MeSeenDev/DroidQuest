@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottomPeekHeight">512dp</dimen>
+
+
+
+    <dimen name="cardCornerRadius">16dp</dimen>
+    <dimen name="largeText">26sp</dimen>
+    <dimen name="baseText">20sp</dimen>
+    <dimen name="middleText">16sp</dimen>
+    <dimen name="smallText">14sp</dimen>
+
+    <dimen name="fabTabletSize">100dp</dimen>
+
+    <dimen name="answerMinWidth">150dp</dimen>
+    <dimen name="answerMinHeight">80dp</dimen>
+
+
+    <dimen name="fragmentImageHeight">200dp</dimen>
+    <dimen name="fragmentImageWidth">200dp</dimen>
+
+    <dimen name="fabInfoSize">24dp</dimen>
+
+</resources>

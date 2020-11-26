@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">DroidQuest</string>
+
+
+    <string name="question_android">OC <b>Android</b> основана на ядре <b>Linux</b>?</string>
+    <string name="question_linear">Разметка <b>LinearLayout</b> позиционирует свои дочерние элементы в строки и столбцы.(Таблицы)</string>
+    <string name="question_service">Компонент <b>Android</b>-приложения <b>Service</b> предоставляют доступ к данным.</string>
+    <string name="question_res">Ресурсы приложения содержатся в отдельном файле <b>XML</b> (Строки, Размеры, Цвета…).</string>
+    <string name="question_manifest"><b>AndroidManifest.xml</b> предоставляет системе основную информацию о программе.</string>
+
+    <string name="comment_android">Основана на ядре <b>Linux</b> и собственной реализации виртуальной машины <b>Java</b> от <b>Google</b>.</string>
+    <string name="comment_linear">Макет <b>LinearLayout</b> представлен двумя вариантами - <b>Horizontal</b> и <b>Vertical</b>.
+        Макет <b>LinearLayout</b> выравнивает все дочерние объекты в одном направлении — вертикально или горизонтально.
+        Направление задается при помощи атрибута ориентации <i>android:orientation:</i></string>
+
+    <string name="comment_service"><b>Service</b> является компонентом приложения, который может выполнять
+        длительные операции в фоновом режиме и не содержит пользовательского интерфейса.</string>
+
+    <string name="comment_res">Ресурсы в <b>Android</b> являются декларативными. В основном ресурсы хранятся в виде <b>XML</b>-файлов в каталоге
+        <b>res</b> с подкаталогами <i>values</i>, <i>drawable-ldpi</i>, <i>drawable-mdpi</i>, <i>drawable-hdpi</i>, <i>layout</i>, но также бывают и другие типы ресурсов.</string>
+    <string name="comment_manifest">Файл манифеста инкапсулирует всю архитектуру <b>Android</b>-приложения, его функциональные возможности и конфигурацию.
+        В процессе разработки приложения вам придется постоянно редактировать данный файл,
+        изменяя его структуру и дополняя новыми элементами и атрибутами.</string>
+    <string name="logo_quest">Logo Quest</string>
+    <string name="true_button">Верно</string>
+    <string name="false_button">Неверно</string>
+    <string name="fab_decs_helper">Подсказка ответа</string>
+    <string name="answer_below">Ответ Внизу</string>
+    <string name="plant_text">Подсказка Внизу</string>
+    <string name="bottom_sheet_answer_warning">Просмотр засчитается за неверный ответ</string>
+    <string name="already_answered">Ответ на вопрос уже был засчитан</string>
+    <string name="answer_correct">верно</string>
+    <string name="answer_incorrect">неверно</string>
+
+
+</resources>
